@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!--bootstrap stylesheet (CDN)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--eget stylesheet-->
+    <link rel="stylesheet" href="boot.css">
+  </head>
+  <body>
+<!--Nav bar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Launch static backdrop modal
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+<div class="hej">
+    <div class="row">
+        <div class="col-4">
+          <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="list-item-1">Item 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum hic minus aut labore nesciunt odit iusto vitae alias, illum atque tempore expedita? Nobis quibusdam tempora, eaque, natus expedita dolorum accusantium animi ullam dolore error numquam molestiae. Asperiores odit quia a aspernatur. Ullam accusamus nesciunt eos atque culpa voluptatibus. Sint, molestias!</p>
+            <h4 id="list-item-2">Item 2</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi expedita distinctio beatae. Tempora mollitia amet quos ipsum similique. Qui distinctio quae inventore sequi! Esse ipsum quisquam vel beatae expedita obcaecati? Vero error totam atque repudiandae fugiat maiores rem consequatur quisquam nesciunt, nemo sint? Voluptatibus nulla sint recusandae omnis molestias blanditiis adipisci doloribus iure qui quos quod voluptate temporibus assumenda, nobis atque nihil nemo architecto ducimus, illo animi! Excepturi aut quia facilis deleniti asperiores illum ipsum hic tenetur, eaque exercitationem ratione aliquid velit explicabo error temporibus. Optio corporis reiciendis aliquam repudiandae voluptas, cupiditate magnam, dicta reprehenderit quam delectus placeat tenetur.</p>
+            <h4 id="list-item-3">Item 3</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum modi suscipit molestias? Deleniti sit magnam, quaerat dolorem iure pariatur! Eaque repudiandae porro blanditiis velit ab, quo a aut expedita quibusdam, illum, quis sapiente repellendus aliquam omnis delectus assumenda neque perspiciatis. Eum odit blanditiis necessitatibus ducimus! Vero, laborum doloribus aspernatur, odio, nihil qui quam natus iure ab totam illo! Quo, earum obcaecati in recusandae, rerum dolore quis maiores ipsa perferendis saepe totam sint exercitationem eius atque iusto, nobis quam corrupti! Ut dicta rem, dignissimos, quos in, quisquam porro aut repellat libero quae tenetur nesciunt ad! Ad rem eveniet minima delectus dolore.</p>
+            <h4 id="list-item-4">Item 4</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui non, iure ipsa velit culpa consequatur minus explicabo eum quis sint ipsam ullam temporibus ratione tempora possimus, debitis ad ipsum iste expedita? Id quasi hic nihil? Earum unde labore sint? Iste odit suscipit blanditiis modi quasi veritatis quis sit nobis maxime eius explicabo doloribus impedit debitis corporis possimus iure reiciendis itaque praesentium quae quia molestiae provident, sed nam. Officiis obcaecati quos sunt impedit delectus animi voluptates consectetur. Assumenda quas facilis, facere ex nesciunt suscipit delectus cum provident at quaerat asperiores veniam rem nam debitis minima quam. Placeat, eum sunt? Vitae, eius.</p>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+    <!--JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+  </body>
+</html>

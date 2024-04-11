@@ -1,0 +1,19 @@
+.hej{
+height: 400px;
+}
+
+
+/* .hej{
+
+    height: 200px;
+    overflow: scroll;
+}
+
+.hej #list-example{
+    position: fixed;
+} */
+
+.scrollspy-example {
+    height: 200px;
+    overflow: auto;
+}
